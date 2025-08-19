@@ -1,0 +1,13 @@
+button {
+    padding: 15px;
+    background-color: red;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+    /* tempo para a */
+    transition: 0.5s;
+}

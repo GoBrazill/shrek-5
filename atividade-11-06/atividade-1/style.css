@@ -1,0 +1,11 @@
+@import url('../styles/global.css');
+
+button {
+    border-radius: 8px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        
+        <!-- <label>Nome Completo</label>  texto descritivo de um input -->
+        <!-- <input type="text"> campo de entrada -->
+
+        <fieldset>
+            <legend>Clona Cartão</legend>
+        <label for="nome">Nome Completo</label>
+        <input type="text" name="nome" id="nome" placeholder="informe seu nome" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="informe seu email" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" name="Senha" id="Senha" placeholder="Informe sua senha" required>
+
+        <label for="idade">Idade</label>
+        <input type="number" name="Idade" id="Idade" placeholder="Informe sua Idade">
+
+        <label for="data-nascimento">Data de Nascimento</label>
+        <input type="date" name="data-nascimento" id="data-nascimento">
+
+        <label for="profissao">Profissão</label>
+        <select name="profissao" id="profissao">  
+        <option>opção 1</option>
+        <option>opção 2</option>
+        <option>opção 3</option>
+        </select>
+
+        <br>
+        <p>COR</p>
+
+        <label for="cor">
+            <input type="radio" name="cor" value="azul">Azul
+        </label>
+
+        <label for="cor">
+            <input type="radio" name="cor" value="vermelho"> Vermelho
+        </label>
+
+        <label for="cor">
+            <input type="radio" name="cor" value="roxo"> Roxo
+        </label>
+
+        <br>
+
+        <p>FRUTA</p>
+        
+        <label for="caixa-seleção">
+            <input type="checkbox" name="frutas" value="Pera"> Pera
+        </label>
+
+        <label for="caixa-seleção">
+            <input type="checkbox" name="frutas" value="Maçã"> Maçã
+        </label>
+
+        <label for="caixa-seleção">
+            <input type="checkbox" name="frutas" value="Uva"> Uva 
+        </label>
+        </fieldset>
+        
+        <button type="submit">Enviar</button>
+        
+    </form>
+</body>
+</html>

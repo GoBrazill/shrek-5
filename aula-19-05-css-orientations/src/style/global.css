@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: blue;
+}
+
+.i1 {
+   color: var(--cor-primaria); 
+}
+
+.i2 {
+    color: var(--cor-primaria);
+}
+
+.i3 {
+    color: var(--cor-primaria);
+}

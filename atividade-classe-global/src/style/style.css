@@ -1,0 +1,7 @@
+@import url('./global.css');
+
+button {
+    padding: 50px;
+    margin: 50px;
+    border-radius: 45;
+}

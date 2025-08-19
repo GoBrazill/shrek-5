@@ -1,0 +1,30 @@
+/* seletor{
+    propriedade: valor;
+} */
+
+p{
+    color: red;
+    line-height: 40px; /* espaçamento entre linhas */
+}
+
+h1{
+    color: #b9ff66; /* controla a cor por hexadecimal */
+}
+h2{
+    color: rgb(0 , 255, 0); /* controla a cor por rgb */
+}
+h3{
+    color: rgba(0, 0, 255, 0.5); /* controla a cor por rgb e a opadcidade(a) */
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* define a fonte */
+    font-size: 25px; /* tamanho da fonte */
+    font-weight: 100; /* espessura da fonte */
+}
+h5{
+    text-transform: uppercase;
+    font-family: "Cascadia Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+}

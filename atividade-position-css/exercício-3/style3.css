@@ -1,0 +1,6 @@
+.absolute {
+    background-color: crimson;
+    width: 200px;
+    height: 100px;
+    justify-self: center;
+}

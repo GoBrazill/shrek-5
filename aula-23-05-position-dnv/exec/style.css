@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgOne {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.imgTwo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

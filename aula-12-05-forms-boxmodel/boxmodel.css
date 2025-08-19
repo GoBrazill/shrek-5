@@ -1,0 +1,20 @@
+.box{
+    height: 300px; /* altura */
+    width: 300px; /* largura */
+    background-color: blueviolet; /* cor de fundo */
+    
+    padding: 50px; /* espaçamento interno */
+    
+    border: 5px dashed #000; /* borda */
+
+    /* margin: 50px; distância entre os elementos */
+    /* margin-top: 100px; */
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    /* margin-bottom: 100px; */
+
+    /* margin: 100px 10px 900px 200px; */
+
+    margin: 100px 200px;
+}
+

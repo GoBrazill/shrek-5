@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Child</title>
+    <link rel="stylesheet" href="../styles/global.css">
+    <style>
+        main {
+            display: flex;
+            gap: 30px;
+        }
+        .card {
+            width: 150px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 10px;
+        }
+        main .card:nth-child(odd) {
+            background-color: red;
+        }
+        main .card:first-child {
+            background-color: aqua;
+        }
+        main .card:nth-child(even) {
+            background-color: green;
+        }
+        main .card:last-child {
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="card">
+            <h3>tittle</h3>
+            <p>description</p>
+            <a href="">learn more</a>
+        </div>
+        <div class="card">
+            <h3>tittle</h3>
+            <p>description</p>
+            <a href="">learn more</a>
+        </div>
+        <div class="card">
+            <h3>tittle</h3>
+            <p>description</p>
+            <a href="">learn more</a>
+        </div>
+        <div class="card">
+            <h3>tittle</h3>
+            <p>description</p>
+            <a href="">learn more</a>
+        </div>
+    </main>
+</body>
+</html>

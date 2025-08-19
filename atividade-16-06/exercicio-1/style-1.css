@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vW;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding: 10px 10px;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: skyblue;
+    
+}

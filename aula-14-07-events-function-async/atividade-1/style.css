@@ -1,0 +1,22 @@
+#mouse {
+    width: 200px; 
+    height: 100px; 
+    margin: 15px;
+    cursor: pointer; 
+    background-color: lightgray; 
+}
+
+#passar-texto {
+    width: 200px; 
+    height: 100px; 
+    cursor: pointer; 
+    content-visibility: hidden; margin: 15px;
+    background-color: blueviolet; 
+}
+
+#aumentar {
+    width: 200px; 
+    height: 100px; 
+    margin: 15px;
+    background-color: chartreuse; 
+}

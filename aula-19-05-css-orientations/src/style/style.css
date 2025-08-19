@@ -1,0 +1,103 @@
+/* body {
+    background-image: url(https://sm.ign.com/ign_br/news/o/official-d/official-disco-elysium-mobile-version-announced-zaum-calls-i_aa8a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* .static{
+    background-color: darkviolet;
+    width: 200px;
+    height: 200px;
+    margin: 10px; espaçamento externo
+    position: static; static é o padrão do css
+} */
+
+/* .relative {
+    background-color: violet;
+    width: 200px;
+    height: 100px;
+    left: 500px;
+    position: relative;
+} */
+
+/* .absolute {
+    background-color: crimson;
+    width: 200px;
+    height: 100px;
+    left: 100px;
+    bottom: 0;
+    position: absolute;
+} */
+
+/* .container {
+    background-color: wheat;
+    width: 400px;
+    height: 300px;
+    position: relative;
+} */
+
+/* .menu {
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+} */
+
+/* .red1 {
+    background-color: red;
+    height: 100px;
+    width: 200px;
+}
+.red2 {
+    background-color: rgb(239, 8, 8);
+    height: 100px;
+    width: 200px;
+}
+.red3 {
+    background-color: rgb(175, 35, 35);
+    height: 100px;
+    width: 200px;
+}
+.red4 {
+    background-color: rgb(146, 6, 6);
+    height: 100px;
+    width: 200px;
+}
+.red5 {
+    background-color: rgb(229, 44, 44);
+    height: 100px;
+    width: 200px;
+}
+.red6 {
+    background-color: rgb(175, 5, 5);
+    height: 100px;
+    width: 200px;
+}
+.red7 {
+    background-color: rgb(180, 33, 33);
+    height: 100px;
+    width: 200px;
+}
+.red8 {
+    background-color: rgb(132, 9, 9);
+    height: 100px;
+    width: 200px;
+}
+.red9 {
+    background-color: rgb(204, 43, 43);
+    height: 100px;
+    width: 200px;
+}
+.red10 {
+    background-color: rgb(137, 17, 17);
+    height: 100px;
+    width: 200px;
+} */
+@import url('./global.css');
+
+.container {
+    display: flex;
+    justify-content: end;
+    background-color: aqua;
+}

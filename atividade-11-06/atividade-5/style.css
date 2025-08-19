@@ -1,0 +1,9 @@
+@import url('../styles/global.css');
+
+p {
+    display: none;
+}
+
+input:checked + p {
+    display: block;
+}
